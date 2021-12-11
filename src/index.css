@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,246 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 255, 255);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li, a, button{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.masklogo{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  mask-image: url("./Images/RPW-logo.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 100%;
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: aqua;
+  box-shadow: 50px 50px 50px 50px rgba(0, 0, 0, 0.185);
+  width: 100%; 
+}
+
+.logo{
+  display: inline;
+  width: 20%;
+  text-align: center;
+  margin-right: auto;
+}
+
+.nav_Links{
+  list-style: none;
+}
+
+.nav_Links li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.nav_Links li a{
+  transition: all 0.3s ease 0s;
+  padding: 10px;
+}
+
+.nav_Links li a:hover{
+  color: blue;
+}
+
+button{
+  margin-right: 50px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  width: 125px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.pIm{
+  width: 100%;
+height: 500px;
+}
+.slogan{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 50px  black;
+  font-size: 50px;
+
+  
+}
+.pslogan{position: absolute;
+top: 60%;
+left: 50%;
+color: white;
+transform: translate(-50%, -50%);
+text-shadow: 5px 5px 50px  black;
+}
+.pw{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: auto;
+  font-size: 25px;
+  text-align: center ;
+  margin-top: 10px;
+  
+}
+.location{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3px;
+}
+.locations{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.routs{
+  height: 87vh;
+  background-color: rgb(212, 239, 248);
+  margin-top: 20px;
+  box-shadow: 50px 0px 30px 0px rgba(0, 0, 0, 0.185);
+  position: relative;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  background-image: url(./Images/bl.jpg);
+}
+
+ul.links li{
+   display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.links li a {
+  color: rgb(0, 0, 0);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+ul.links{
+  background-color:aqua;
+    padding: 0;
+    
+    
+}
+
+.comp{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding-left: 100px;
+  padding-top:  40px;
+}
+.comp h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+.ims{
+  max-width: 500px;
+  float: right;
+  min-width: 100px;
+  
+}
+
+.ims img{
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+  padding-right: 100px;
+  padding-top: 20px;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  
+}
+
+.pH{
+  display: block;
+  position: relative;
+  padding-right: 600px;
+  line-height: 2;
+}
+
+
+
+.about{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  position: relative;
+    height: 100vh;
+    padding-left: 100px;
+    padding-top:  40px;
+
+ 
+}
+
+.about img{  
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+  padding-right: 100px;
+  padding-top: 40px;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  width: 30%
+
+    
+}
+
+.pp{
+  display: block;
+  position: relative;
+  padding-right: 600px;
+  line-height: 2;
+}
+
+.about h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 15px;
 }
