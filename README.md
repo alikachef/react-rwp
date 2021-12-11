@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-![](src\Vid\logo.mp4)
-=======
 
->>>>>>> 7a3c0b654f44dcdd7aebda3fb1c021dcc9c78931
+![animated](https://user-images.githubusercontent.com/70487686/145662580-38a333d0-90b5-4335-9be2-e82e874c89bf.gif) 
