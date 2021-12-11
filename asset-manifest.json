@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-rwp/static/css/main.acc1cb4d.chunk.css",
+    "main.js": "/react-rwp/static/js/main.64a55461.chunk.js",
+    "main.js.map": "/react-rwp/static/js/main.64a55461.chunk.js.map",
+    "runtime-main.js": "/react-rwp/static/js/runtime-main.03b7d3d9.js",
+    "runtime-main.js.map": "/react-rwp/static/js/runtime-main.03b7d3d9.js.map",
+    "static/js/2.9dad6dd4.chunk.js": "/react-rwp/static/js/2.9dad6dd4.chunk.js",
+    "static/js/2.9dad6dd4.chunk.js.map": "/react-rwp/static/js/2.9dad6dd4.chunk.js.map",
+    "index.html": "/react-rwp/index.html",
+    "static/css/main.acc1cb4d.chunk.css.map": "/react-rwp/static/css/main.acc1cb4d.chunk.css.map",
+    "static/js/2.9dad6dd4.chunk.js.LICENSE.txt": "/react-rwp/static/js/2.9dad6dd4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-rwp/static/media/bl.8e5a894e.jpg",
+    "static/media/RPW-logo.fa7fe3b4.png": "/react-rwp/static/media/RPW-logo.fa7fe3b4.png",
+    "static/media/Rain1.0250e3ca.mp4": "/react-rwp/static/media/Rain1.0250e3ca.mp4",
+    "static/media/bf.a94df2cf.png": "/react-rwp/static/media/bf.a94df2cf.png",
+    "static/media/bfD.a242abcb.jpg": "/react-rwp/static/media/bfD.a242abcb.jpg",
+    "static/media/bfG.92bc63cc.jpg": "/react-rwp/static/media/bfG.92bc63cc.jpg",
+    "static/media/pat.8dd06d06.jpg": "/react-rwp/static/media/pat.8dd06d06.jpg",
+    "static/media/sidewalk.31cafb23.jpg": "/react-rwp/static/media/sidewalk.31cafb23.jpg",
+    "static/media/wC.d15a2967.jpg": "/react-rwp/static/media/wC.d15a2967.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03b7d3d9.js",
+    "static/js/2.9dad6dd4.chunk.js",
+    "static/css/main.acc1cb4d.chunk.css",
+    "static/js/main.64a55461.chunk.js"
+  ]
+}
